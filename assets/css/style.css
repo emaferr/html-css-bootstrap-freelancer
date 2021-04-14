@@ -10,6 +10,10 @@ body{
     height: 15rem;
 }
 
+.about_p{
+    font-size: 1.45rem;
+}
+
 
 /* Color */
 .bg_blue{
@@ -28,10 +32,6 @@ body{
 
 
 .avatar_img{
-    height: 15rem;
-}
-
-.portfolio_img{
     height: 15rem;
 }
 
