@@ -14,15 +14,14 @@ body{
     font-size: 1.45rem;
 }
 
-
-
-/* Color */
-.bg_blue{
-    background-color: #2C3E50;
+.footer_icon{
+    width: 3.8rem;
+    height: 3.8rem;
+    font-size: 1.5rem;
 }
 
-.bg_color_green{
-    background-color: #1ABC9C;
+.info_social .col-sm-4 ul> li{
+    margin: auto;
 }
 
 .line_star::after, .line_star::before{
@@ -33,6 +32,19 @@ body{
     height: 0.25rem;
     vertical-align: middle;
     border-radius: 0.4rem;
+}
+
+/* Color */
+.bg_blue{
+    background-color: #2C3E50;
+}
+
+.bg_lblue{
+    background-color: #3A546D;
+}
+
+.bg_green{
+    background-color: #1ABC9C;
 }
 
 .star_black::after , .star_black::before{
