@@ -13,6 +13,8 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
+    <link rel="stylesheet" href="glyphicons/glyphicons.css">
+
     <title>Start, Bootsrap!</title>
 
   </head>
@@ -20,14 +22,14 @@
   <body>
 
     <!-- Site header -->
-    <header>
+    <header class="site_header">
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg_blue text-uppercase">
 
             <div class="container">
 
-                <a class="navbar-brand mb-0 h1" href="#">START BOOTSTRAP</a> 
+                <a class="navbar-brand mb-0 h1" href="#">start bootstrap</a> 
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     
@@ -39,9 +41,11 @@
                     
                     <div class="navbar-nav ml-auto">
                         
-                        <a class="nav-link" href="#">PORTFOLIO<span class="sr-only">(current)</span></a>
-                        <a class="nav-link" href="#">ABOUT</a>                  
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link" href="#">portfolio</a>
+
+                        <a class="nav-link" href="#">about</a> 
+
+                        <a class="nav-link" href="#">contact</a>
 
                     </div>
 
@@ -59,23 +63,49 @@
     <main>
 
         <!-- Start section -->
-        <div class="start_section bg_color_green">
+
+        <div class="jumbotron jumbotron-fluid bg_color_green text-white text-center text-uppercase">
 
             <div class="container">
 
-                <div class="row justify-content-center">
+                <img class="avatar_img pb-2" src="./assets/img/avatar.svg" alt="">
 
-                    <div class="col-md-7 col-sm-10 m-4 dbg_3">START</div>
+                <h1 class="display-4 font-weight-bold text-nowrap">start bootstrap</h1>
+
+                <div class="line_star">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-star-fill m-3 " viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
 
                 </div>
+
+                <p class="lead text-nowrap">graphic artist - web designer - illustrator</p>
 
             </div>
 
         </div>
+
+        
+
+
         <!-- end Start section -->
 
         <!-- Portafolio section -->
-        <div class="portfolio_section m-5">
+
+
+        
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="portfolio_section m-5">
 
             <div class="container">
 
@@ -103,11 +133,11 @@
 
             </div>
 
-        </div>
+        </div> -->
         <!-- end Portafolio section -->
 
         <!-- About section -->
-        <div class="about_section bg_color_green">
+        <div class="about_section">
 
             <div class="container">
 
@@ -138,6 +168,11 @@
         </div>
         <!-- end contact section -->
 
+    </main>
+    <!-- end Site main -->
+
+    <!-- Site footer -->
+    <footer>
 
         <!-- Info_social section -->
         <div class="info_social bg_color_blue">
@@ -154,25 +189,27 @@
         
                 </div>
 
+                <!-- Copy section -->
+                <div class="copy">
+
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="col-sm-4 text-center">Copyright</div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- end Copy section -->
+
             </div>
 
         </div>
-         <!-- Info_social section -->
-
-    </main>
-    <!-- end Site main -->
-
-    <!-- Site footer -->
-    <footer>
-
-        <!-- Copy section -->
-        <div class="copy row justify-content-center">
-
-            <div class="col-sm-4 text-center">Copyright</div>
-
-        </div>
-        <!-- end Copy section -->
-
+        <!-- Info_social section -->
+         
     </footer>
     <!-- end Site footer -->
     
